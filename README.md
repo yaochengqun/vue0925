@@ -1,6 +1,6 @@
 # vue-project
 
-> this is my first project
+> 基本Vue路由配置
 
 ## Build Setup
 
