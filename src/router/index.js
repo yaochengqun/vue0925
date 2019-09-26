@@ -11,6 +11,7 @@ import Para2 from '@/components/Para2'
 import Sc from '@/components/ScopedDemo'
 import Sc1 from '@/components/Sc1'
 import NotFound from '@/components/NotFound'
+import Img from '@/components/ImgDemo'
 
 Vue.use(Router)
 
@@ -73,6 +74,11 @@ export default new Router({
         }
       ],
       redirect: '/sc/sc1'
+    },
+    {
+      path: '/img',
+      name: 'Img',
+      component: Img
     },
     {
       path: '*',//全不匹配的情况下，返回404，路由按顺序从上到下，依次匹配。最后一个*能匹配全部
