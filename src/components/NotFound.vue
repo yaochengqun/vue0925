@@ -1,9 +1,7 @@
 <template>
-  <div id="search">
-  	Search Page
-  	<br>
-  	<input type="search">
-  </div>
+	<div id="notFound">
+		404页面
+	</div>
 </template>
 
 <script>

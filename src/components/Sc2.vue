@@ -1,8 +1,6 @@
 <template>
-  <div id="search">
-  	Search Page
-  	<br>
-  	<input type="search">
+  <div id="sc2">
+    Sc2
   </div>
 </template>
 
@@ -12,6 +10,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+div{
+  border:2px solid orange;
+}
 </style>
